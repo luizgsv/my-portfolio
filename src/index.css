@@ -8,13 +8,8 @@
   
 } */
 
-
-p,
-h1,
-h4,
-button,
-input {
-  font-family: Segoe UI, sans-serif;
+h1, h2, h3, h4, h5, h6, button, input, select, span {
+  font-family: "Archivo", sans-serif;
 }
 
 button {
@@ -37,4 +32,3 @@ button {
 ::-webkit-scrollbar-thumb:hover {
   background: #aaaaaa;
 }
-
