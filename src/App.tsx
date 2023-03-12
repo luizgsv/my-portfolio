@@ -1,7 +1,15 @@
+import { ThemeProvider } from "styled-components";
+import { MenuHeader } from "./components/MenuHeader";
+import { Home } from "./pages/Home";
+import { darkTheme } from "./styles/theme";
+
 function App() {
   return (
-    <h1>Hello word!</h1>    
-  )
+    <ThemeProvider theme={darkTheme}>
+        <MenuHeader />
+        <Home />
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;
