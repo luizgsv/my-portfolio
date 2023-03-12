@@ -37,15 +37,16 @@ button {
 }
 
 ::-webkit-scrollbar-track {
-  background: #525252;
+  background: #202024;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #888;
+  border-radius: 0.5rem;
+  background: #7957FF;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #aaaaaa;
+  background: #6B46FF;
 }
 
 
