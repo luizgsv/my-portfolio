@@ -23,7 +23,7 @@ export const GlobalStyles = createGlobalStyle`
   --background: '#121214';
 }
 
-h1, h2, h3, h4, h5, h6, button, input, select, span {
+h1, h2, h3, h4, h5, h6, button, input, select, span, nav, li, ul, a {
   font-family: "Archivo", sans-serif;
 }
 
