@@ -6,7 +6,9 @@ import { darkTheme } from "./styles/theme";
 function App() {
   return (
     <ThemeProvider theme={darkTheme}>
+      
         <MenuHeader />
+        <Home />
         <Home />
     </ThemeProvider>
   );

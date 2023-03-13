@@ -13,6 +13,8 @@ export const Container = styled.header`
 
   position: fixed;
 
+  border-bottom: 2px solid ${({ theme }) => theme.gray};
+
   top: 0;
   left: 0;
 
@@ -48,7 +50,7 @@ export const Container = styled.header`
       list-style-type: none;
 
       li {
-        color: ${({ theme }) => theme.white};
+        color: ${({ theme }) => theme.title};
         font-family: "Archivo", sans-serif;
       }
     }

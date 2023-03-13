@@ -1,4 +1,4 @@
-import LogoSvg from "../../assets/export";
+import { LogoSvg } from "../../assets/export";
 import { Container } from "./styles";
 
 export function MenuHeader() {

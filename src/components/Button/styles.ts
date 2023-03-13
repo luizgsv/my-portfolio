@@ -16,7 +16,7 @@ export const ComponentButton = styled.button<IButtonComponent>`
     backgroundColor ? theme[backgroundColor] : theme.purple};
 
   color: ${({ theme, fontColor }) =>
-    fontColor ? theme[fontColor] : theme.white};
+    fontColor ? theme[fontColor] : theme.title};
   font-size: ${({ fontSize }) => (fontSize ? `${fontSize}rem` : "1rem")};
   font-weight: ${({ fontWeight }) => (fontWeight ? `${fontWeight}` : "500")};
 

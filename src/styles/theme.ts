@@ -11,6 +11,7 @@ declare module "styled-components" {
     white: string;
     gray: string;
     background: string;
+    subBackground: string;
   }
 }
 
@@ -27,4 +28,5 @@ export const darkTheme: DefaultTheme = {
   gray: "#585858",
 
   background: "#121214",
+  subBackground: "#0D0D10",
 };
