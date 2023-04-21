@@ -23,7 +23,7 @@ export const GlobalStyles = createGlobalStyle`
   --background: '#121214';
 }
 
-h1, h2, h3, h4, h5, h6, button, input, select, span, nav, li, ul, a {
+h1, h2, h3, h4, h5, h6, button, input, select, span, a {
   font-family: "Archivo", sans-serif;
 }
 
@@ -37,17 +37,14 @@ button {
 }
 
 ::-webkit-scrollbar-track {
-  background: #202024;
+  background: #525252;
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 0.5rem;
-  background: #7957FF;
+  background: #888;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #6B46FF;
+  background: #aaaaaa;
 }
-
-
 `;
