@@ -1,7 +1,6 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-import { IButtonComponent } from '../../models/interface/ButtonsProps';
-
+import { IButtonComponent } from "../../models/interface/ButtonsProps";
 
 export const ComponentButton = styled.button<IButtonComponent>`
   display: flex;
@@ -10,7 +9,7 @@ export const ComponentButton = styled.button<IButtonComponent>`
   align-items: center;
   justify-content: center;
 
-  gap: 0.5rem;
+  gap: 1rem;
 
   background-color: ${({ theme, backgroundColor }) =>
     backgroundColor ? theme[backgroundColor] : theme.purple};
@@ -27,5 +26,10 @@ export const ComponentButton = styled.button<IButtonComponent>`
   border-radius: ${({ borderRadius }) =>
     borderRadius ? `${borderRadius}rem` : "0.3rem"};
 
-  padding: 0.75rem 2.5rem;
+  padding: 0.75rem 1rem;
+
+  svg {
+    height: 24px;
+    width: auto;
+  }
 `;
